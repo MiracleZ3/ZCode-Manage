@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+# 推送前跑完整门禁：lint、格式、类型与测试。
+# Git hook 会注入 GIT_DIR 等 local env，不清理会让测试里的 Git 命令误命中当前仓库。
+# 手工执行 hook 时 stdin 可能是终端，这里不读 stdin，避免卡住。
+# shellcheck disable=SC2046
+unset $(git rev-parse --local-env-vars)
+
+pnpm run verify:pre-push

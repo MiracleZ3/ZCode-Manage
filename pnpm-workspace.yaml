@@ -1,0 +1,13 @@
+packages:
+  - apps/*
+  - packages/*
+
+supportedArchitectures:
+  os:
+    - current
+  cpu:
+    - current
+
+# pnpm 10 默认不执行依赖的安装脚本；tsup 依赖 esbuild，它靠安装脚本校验平台二进制。
+allowBuilds:
+  esbuild: true

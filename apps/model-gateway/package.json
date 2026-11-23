@@ -1,0 +1,23 @@
+{
+  "name": "@zm/model-gateway",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch --onSuccess 'node dist/entry-http.js'",
+    "start": "node dist/entry-http.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.11",
+    "@zm/contracts": "workspace:*",
+    "@zm/shared": "workspace:*",
+    "hono": "^4.12.9",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsup": "^8.4.0",
+    "vitest": "^4.1.1"
+  }
+}

@@ -1,6 +1,8 @@
 # 依赖与构建产物
 node_modules/
 dist/
+# 类型检查（tsc -b）的输出目录；dist/ 只放可运行的打包结果，两者互不覆盖
+dist-tsc/
 coverage/
 *.tsbuildinfo
 .turbo/
@@ -32,3 +34,6 @@ coverage/
 !.vscode/extensions.json
 .idea/
 .DS_Store
+
+# husky 生成的 hook 脚本目录；受版本控制的是 .husky/pre-push 本身
+.husky/_/
