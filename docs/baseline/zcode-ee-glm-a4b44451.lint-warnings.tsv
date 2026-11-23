@@ -1,0 +1,537 @@
+eslint(max-lines)	packages/ui/src/remote-connection-flow/index.ts	2439	File has too many lines (2262).
+eslint(no-control-regex)	packages/desktop/scripts/powershell-command.mjs	41	Unexpected control character
+eslint(no-control-regex)	packages/shared/src/zcode-protocol-v4/transport.ts	913	Unexpected control character
+eslint(no-control-regex)	packages/ui/src/lib/imagePreviewDownload.ts	74	Unexpected control characters
+eslint(no-control-regex)	packages/ui/src/plugin-ui/domain/pluginUiDownloadFile.ts	50	Unexpected control characters
+eslint(no-eval)	apps/zcode-cli/packages/dynamic-workflow/tests/lowering/expected/holes.js	10	eval can be harmful.
+eslint(no-eval)	apps/zcode-cli/packages/dynamic-workflow/tests/lowering/expected/holes.js	2	eval can be harmful.
+eslint(no-eval)	apps/zcode-cli/packages/dynamic-workflow/tests/lowering/expected/holes.js	8	eval can be harmful.
+eslint(no-unsafe-finally)	packages/services/src/project-storage/startup.ts	124	Unsafe `finally` block.
+eslint(no-unsafe-finally)	packages/services/src/project-storage/startup.ts	99	Unsafe `finally` block.
+eslint(no-unused-vars)	packages/desktop/scripts/node-pty-rebuild.mjs	3	Identifier 'join' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/src/main/desktopHostProcess.ts	22	Type 'RemoteTarget' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/src/main/desktopMainIpcPlatform.ts	6	Identifier 'DesktopCommandIds' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/src/main/index.ts	81	Identifier 'migrateApplicationStorage' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/src/main/index.ts	82	Identifier 'resolveDefaultZCodeAgentCommand' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/src/main/index.ts	83	Identifier 'startupStorage' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/browser/design/browser-design-page-tools.test.ts	7	Identifier 'TID_BROWSER_ADDRESS_INPUT' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/browser/tabs/manual-review/pending/browser-session-recent-visits.test.ts	19	Identifier 'waitForWorkspaceApp' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/attachments/conversation-session-pasted-image-path-edge-cases.test.ts	2	Identifier 'isAbsolute' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/background/conversation-session-background-bash-output.test.ts	5	Identifier 'ensureToolCrossProductFullAccessMode' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/context/conversation-session-compact-actions.test.ts	11	Identifier 'waitForV4AssistantMessageContaining' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/execution/conversation-session-send-message-resume-stop.test.ts	16	Identifier 'waitForV4ComposerText' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/presentation/conversation-session-assistant-preview-cards.test.ts	65	Variable 'MEDIA_FILES' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/remote/connection/conversation-session-r3-soak-dual.test.ts	25	Identifier 'readRemoteTabSnapshot' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/remote/connection/conversation-session-r3-soak-dual.test.ts	31	Identifier 'waitForV4AssistantMessageContaining' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/remote/connection/conversation-session-ssh-remote-p0.test.ts	11	Identifier 'resolveSeededReplayBaseUrl' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-file-local-actions.test.ts	16	Identifier 'clickTestIdByDom' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-file-local-actions.test.ts	17	Identifier 'hoverTestIdByWebDriver' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/remote/mobile/conversation-session-r3-mobile-permission.test.ts	145	Function 'mobileText' is declared but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/conversation-session/remote/mobile/conversation-session-r3-mobile-permission.test.ts	26	Identifier 'readRemoteTabSnapshot' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/helpers/plugin-management-lifecycle.ts	25	Identifier 'waitForDefaultWorkspaceReady' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/ui-shell/marketing/marketing-touch-entitlement.test.ts	23	Identifier 'waitForTestIdByDom' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/ui-shell/marketing/marketing-touch-entitlement.test.ts	449	Function 'readTestIdText' is declared but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/workspace/runtime/workspace-agent-warmup-small-set.test.ts	8	Identifier 'isMainRendererUrl' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/test/e2e/workspace/runtime/workspace-passive-agent-startup.test.ts	8	Identifier 'isMainRendererUrl' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/wdio.conf.ts	259	Identifier 'seedDeleteAllArchivedTasksFixture' is imported but never used.
+eslint(no-unused-vars)	packages/desktop/wdio.conf.ts	958	Parameter 'specs' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/rpc/examples/04-remote-connection.ts	136	Parameter 'connectTo' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/rpc/src/proxy-channel.ts	48	Parameter 'disposables' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/services/src/node.ts	1862	Variable 'commandsService' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/services/src/node.ts	1863	Variable 'hooksService' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/services/src/node.ts	1866	Variable 'memoryService' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/services/src/output-style/outputStyleService.ts	8	Variable 'DEFAULT_OUTPUT_STYLE' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/services/src/session/taskChangeSummary.ts	5	Type 'ZCodeTaskMeta' is imported but never used.
+eslint(no-unused-vars)	packages/services/src/session/taskIndexRepo.ts	4	Identifier 'isTasksStorageMigrated' is imported but never used.
+eslint(no-unused-vars)	packages/services/src/session/taskIndexRepo.ts	5	Identifier 'isTasksStoragePrepared' is imported but never used.
+eslint(no-unused-vars)	packages/services/src/session/tasksDatabase/migrations.ts	6	Type 'SqliteMigration' is imported but never used.
+eslint(no-unused-vars)	packages/services/src/zcode-agent/zcodeTaskIndexSyncer.ts	621	Parameter 'options' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/session-control/src/contract/app.ts	9	Identifier 'appWorkspaceRefSchema' is imported but never used.
+eslint(no-unused-vars)	packages/session-control/src/contract/cli.ts	16	Identifier 'workspacePathSchema' is imported but never used.
+eslint(no-unused-vars)	packages/session-control/src/contract/cli.ts	6	Identifier 'cliScopeSchema' is imported but never used.
+eslint(no-unused-vars)	packages/session-control/src/contract/cli.ts	8	Identifier 'identifierSchema' is imported but never used.
+eslint(no-unused-vars)	packages/shared/src/validation.ts	76	Identifier 'sessionWorkflowActivitySchema' is imported but never used.
+eslint(no-unused-vars)	packages/shared/src/validationAppSettings.ts	7	Type 'AppSettings' is imported but never used.
+eslint(no-unused-vars)	packages/shared/src/web-remote-control.ts	22	Type 'SessionWorkflowActivity' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/BotsDialog/shared.tsx	5	Type 'BotWorkspaceRef' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/Root.tsx	20	Identifier 'Suspense' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/Root.tsx	20	Identifier 'lazy' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/Root.tsx	554	Variable 'webRemoteControlSessionActive' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/ui/src/Root.tsx	77	Type 'WorkspaceTabState' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/SettingsPage.tsx	320	Parameter 'onOpenWorkspace' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/ui/src/SettingsPage.tsx	322	Parameter 'allowOpenWorkspace' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/ui/src/app-shell/WorkspaceShellLayout.tsx	1769	Variable 'handleCreateProjectDraft' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/ui/src/lib/askUserQuestion.ts	26	Interface 'AskUserQuestionAnswerDraft' is declared but never used.
+eslint(no-unused-vars)	packages/ui/src/lib/fileDisplay.tsx	10	Identifier 'buildInlineSvgDataUrl' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/lib/fileDisplay.tsx	8	Identifier 'getIconPalette' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/lib/fileDisplay.tsx	9	Identifier 'getIconLabel' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/lib/keyboardShortcuts.ts	48	Function 'getCtrlModifierLabel' is declared but never used.
+eslint(no-unused-vars)	packages/ui/src/lib/treemappingActivity.ts	3	Identifier 'getPathLeaf' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/project-sidebar/index.tsx	152	Variable 'msg' is declared but never used. Unused variables should start with a '_'.
+eslint(no-unused-vars)	packages/ui/src/root/useRootWorkspaceActions.ts	43	Identifier 'INITIAL_PANE_LAYOUT' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/settings/AutomationsSection.tsx	7	Identifier 'useRef' is imported but never used.
+eslint(no-unused-vars)	packages/ui/src/settings/model-provider-section/StatusCards.tsx	679	Parameter 'isUnavailable' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/ui/src/v4/ConversationTurnGroup.tsx	246	Parameter 'stageTailIsRunning' is declared but never used. Unused parameters should start with a '_'.
+eslint(no-unused-vars)	packages/ui/test/browser/manual-review/pending/composer-toolbar-fit.test.mjs	5	Identifier 'writeFile' is imported but never used.
+eslint(no-useless-escape)	packages/desktop/scripts/check-e2e-fixtures.mjs	189	Unnecessary escape character '['
+eslint(no-useless-escape)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-subagent.test.ts	265	Unnecessary escape character '"'
+eslint(no-useless-escape)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-subagent.test.ts	265	Unnecessary escape character '"'
+eslint(no-useless-escape)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-subagent.test.ts	265	Unnecessary escape character '"'
+eslint(no-useless-escape)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-subagent.test.ts	265	Unnecessary escape character '"'
+eslint(no-useless-escape)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-subagent.test.ts	265	Unnecessary escape character '"'
+eslint(no-useless-escape)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-subagent.test.ts	265	Unnecessary escape character '"'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/desktop/scripts/mcp-apps-host-fixture/managed-renderer.tsx	153	React Hook useEffect has missing dependencies: 'host.error', and 'host.supported'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/App.tsx	1152	React Hook useMemo has unnecessary dependency: handleOpenSettingsSection
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/DirectoryBrowser.tsx	116	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ElicitationDialog.tsx	96	React Hook useEffect has a missing dependency: 'autoResolution'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ElicitationDialog.tsx	99	React Hook useEffect has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ModelTrajectoryPane.tsx	66	React hook useMemo depends on `records`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ModelTrajectoryPane.tsx	67	React hook useMemo depends on `records`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/OpenSplitButton.tsx	150	React Hook useEffect has a missing dependency: 'fileApplications'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/OpenSplitButton.tsx	223	React Hook useCallback has a missing dependency: 'fileApplications'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/OpenSplitButton.tsx	223	React Hook useCallback has unnecessary dependency: fileApplications.load
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/RemoteConnectionFields.tsx	531	React Hook useEffect has missing dependencies: 'username', 'privateKeyPath', 'sshAuthMethod', and 'host'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/Root.tsx	432	React Hook useEffect has a missing dependency: 'appSettings'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/TaskSearchDialog.tsx	241	React Hook useEffect has a missing dependency: 'taskList'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ToolCallBlocks.tsx	184	React Hook useMemo has missing dependencies: 'onOpenWorkflowRun', 'disableSummaryContentAnimation', and 'animateDiffCountOnMount'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ToolCallBlocks.tsx	243	React Hook useMemo has unnecessary dependency: suppressSourceLabel
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ToolCallBlocks/ToolPresentation.tsx	47	React Hook useMemo has a missing dependency: 'capabilities'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ToolCallBlocks/renderers/agent.tsx	356	React Hook useCallback has missing dependencies: 'context.nestedToolRenderer', and 'context.onOpenAutomationsMain'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ToolCallBlocks/renderers/edit.tsx	280	React Hook useCallback has a missing dependency: 'context.animateDiffCountOnMount'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ToolCallBlocks/renderers/mcp.tsx	310	React Hook useCallback has unnecessary dependency: hasPrimaryResult
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/ToolCallBlocks/renderers/node-repl.tsx	345	React Hook useCallback has a missing dependency: 'context'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/UpdateStatusDialogController.tsx	278	React Hook useEffect has a missing dependency: 'updateState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/WorkspaceSidebarFooterUsageSummary.tsx	243	React Hook useMemo has a missing dependency: 'providerSettingsView'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/WorkspaceSidebarFooterUsageSummary.tsx	243	React Hook useMemo has unnecessary dependency: bigmodelProvider.accountAccess
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/WorkspaceSidebarFooterUsageSummary.tsx	243	React Hook useMemo has unnecessary dependency: zaiProvider.accountAccess
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has a missing dependency: 'labels'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: currentTime
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.browserTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.codeViewerTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.developerToolsTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.relativeTime
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.reviewTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.subagentTypeLabel
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.terminalTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.treemappingTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	100	React Hook useMemo has unnecessary dependency: labels.whiteboardTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has a missing dependency: 'labels'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.browserTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.codeViewerTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.developerToolsTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.relativeTime
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.reviewTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.subagentTypeLabel
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.terminalTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.treemappingTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/SidePaneTabOverview.tsx	72	React Hook useMemo has unnecessary dependency: labels.whiteboardTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/WorkspaceShellLayout.tsx	1161	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/WorkspaceShellLayout.tsx	1162	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/WorkspaceShellLayout.tsx	1368	React Hook useMemo has a missing dependency: 'gitState.datasets'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/WorkspaceShellLayout.tsx	1368	React Hook useMemo has unnecessary dependency: gitState.datasets.staged
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/WorkspaceShellLayout.tsx	1368	React Hook useMemo has unnecessary dependency: gitState.datasets.unstaged
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/WorkspaceShellLayout.tsx	1986	React Hook useMemo has a missing dependency: 'intl'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/useWorkflowRunPaneSettings.ts	115	React Hook useEffect has a missing dependency: 'tab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/useWorkflowRunPaneSettings.ts	81	React Hook useMemo has a missing dependency: 'tab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/useWorkflowRunPaneSettings.ts	81	React Hook useMemo has unnecessary dependency: tab.remoteSessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/useWorkflowRunPaneSettings.ts	81	React Hook useMemo has unnecessary dependency: tab.workspaceIdentity
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/app-shell/useWorkflowRunPaneSettings.ts	81	React Hook useMemo has unnecessary dependency: tab.workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/browser-use/UnifiedBrowserView.tsx	1244	React Hook useCallback has a missing dependency: 'recentVisitsScopeKey'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/browser-use/UnifiedBrowserView.tsx	836	React Hook useEffect has a missing dependency: 'isResponsiveMode'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/chat-input-toolbar/ThoughtLevelCycleControl.tsx	144	React Hook useEffect has missing dependencies: 'updateInlineLabelVisible', 'rafId', and 'debouncedUpdateInlineLabelVisible'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/chat-input-toolbar/contextUsage.tsx	476	React Hook useCallback has a missing dependency: 'opportunityReminder'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/chat-input-toolbar/contextUsage.tsx	476	React Hook useCallback has unnecessary dependency: opportunityReminder.opportunityKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/chat-input-toolbar/contextUsage.tsx	476	React Hook useCallback has unnecessary dependency: opportunityReminder.phase
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/chat-input-toolbar/contextUsage.tsx	492	React Hook useEffect has a missing dependency: 'opportunityReminder'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/chat-input-toolbar/contextUsage.tsx	637	React Hook useEffect has missing dependencies: 'resetUi', and 'automaticCompletionCandidateByType'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/chat-input-toolbar/contextUsage.tsx	831	React Hook useEffect has a missing dependency: 'opportunityReminder'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/components/marketing-touch/MarketingTouchProvider.tsx	311	React Hook useCallback has a missing dependency: 'user'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/components/marketing-touch/MarketingTouchProvider.tsx	311	React Hook useCallback has unnecessary dependency: identity
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/components/marketing-touch/MarketingTouchProvider.tsx	315	React Hook useCallback has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/components/workflow-timeline/WorkflowTimelineFills.tsx	49	React Hook useEffect has missing dependencies: 'fills', and 'compute'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/conversation-workspace-target/usePluginCreator.ts	41	React Hook useMemo has unnecessary dependency: onCreateTask
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/conversation-workspace-target/usePluginCreator.ts	41	React Hook useMemo has unnecessary dependency: resolution.remoteSessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/conversation-workspace-target/usePluginCreator.ts	41	React Hook useMemo has unnecessary dependency: resolution.rpcReady
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/conversation-workspace-target/usePluginCreator.ts	41	React Hook useMemo has unnecessary dependency: resolution.services
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/conversation-workspace-target/usePluginCreator.ts	41	React Hook useMemo has unnecessary dependency: targetKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/feedback/FeatureRequestDialog.tsx	172	React Hook useCallback has a missing dependency: 'intl.formatMessage'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/feedback/FeedbackSubmitForm.tsx	307	React Hook useCallback has a missing dependency: 'intl.formatMessage'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/feedback/FeedbackSupplementComposer.tsx	122	React Hook useCallback has a missing dependency: 'formatMessage'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1135	React Hook useEffect has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1481	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1499	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1519	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1539	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1581	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1677	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1849	React Hook useCallback has unnecessary dependency: currentSidePaneScope
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1849	React Hook useCallback has unnecessary dependency: setIsSidePaneCollapsed
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1857	React Hook useCallback has unnecessary dependency: currentSidePaneScope
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	1857	React Hook useCallback has unnecessary dependency: setIsSidePaneCollapsed
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	377	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	404	React Hook useCallback has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	472	React Hook useEffect has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	596	React Hook useEffect has a missing dependency: 'setIsSidePaneCollapsed'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useAppPanels.ts	934	React Hook useCallback has unnecessary dependency: workspaceAbsPath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useBotBoundGroups.ts	76	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useBotPrivateDeliveryRetry.ts	14	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useBrowserSitePermissions.ts	54	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useClientScenesResource.ts	99	React Hook useEffect has a missing dependency: 'resource'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useComposerConnectionSwitch.ts	64	React Hook useMemo has unnecessary dependency: base
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useComposerConnectionSwitch.ts	64	React Hook useMemo has unnecessary dependency: scopeId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useComposerConnectionSwitch.ts	64	React Hook useMemo has unnecessary dependency: target
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useComposerConnectionSwitch.ts	64	React Hook useMemo has unnecessary dependency: workspaceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useConfirmDialog.ts	47	React Hook useCallback has unnecessary dependency: scope
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useCuaComposerEntry.ts	149	React Hook useMemo has unnecessary dependency: cuaPlugin
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useGitAutoRefresh.ts	89	React Hook useMemo has a missing dependency: 'gitSummary'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useGitAutoRefresh.ts	89	React Hook useMemo has unnecessary dependency: gitSummary.autoRefreshWatchPaths
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useGitAutoRefresh.ts	89	React Hook useMemo has unnecessary dependency: gitSummary.isGitAvailable
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useGitAutoRefresh.ts	89	React Hook useMemo has unnecessary dependency: gitSummary.isRepository
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useGitAutoRefresh.ts	89	React Hook useMemo has unnecessary dependency: gitSummary.repoRoot
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useGitAutoRefresh.ts	89	React Hook useMemo has unnecessary dependency: gitSummary.workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useImageFilePreview.ts	33	React Hook useMemo has a missing dependency: 'context'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useModelProviders.ts	54	React Hook useCallback has a missing dependency: 'providerSettingsRead'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useModelProviders.ts	54	React Hook useCallback has unnecessary dependency: providerSettingsRead.commit
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useModelSelectionView.ts	90	React Hook useMemo has a missing dependency: 'input'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useModelSelectionView.ts	90	React Hook useMemo has unnecessary dependency: inputKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/usePlanIdentitySnapshot.ts	81	React Hook useCallback has unnecessary dependency: connectionSelection
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/usePluginReferenceCatalog.ts	125	React Hook useMemo has unnecessary dependency: enabled
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/usePluginReferenceCatalog.ts	125	React Hook useMemo has unnecessary dependency: remoteSessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/usePluginReferenceCatalog.ts	125	React Hook useMemo has unnecessary dependency: requestKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/usePluginReferenceCatalog.ts	125	React Hook useMemo has unnecessary dependency: rpcReady
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/usePluginReferenceCatalog.ts	125	React Hook useMemo has unnecessary dependency: services
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/usePluginReferenceCatalog.ts	125	React Hook useMemo has unnecessary dependency: workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useRemoteConnectionForm.ts	147	React Hook useEffect has a missing dependency: 'preserveDraftOnOpen'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useSessionSubagents.ts	145	React Hook useCallback has unnecessary dependency: options.remoteSessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useSettingsSync.ts	594	React Hook useCallback has unnecessary dependency: zcodeSessionService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useSkills.ts	76	React Hook useMemo has unnecessary dependency: options.enabled
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useSkills.ts	76	React Hook useMemo has unnecessary dependency: remoteSessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useSkills.ts	76	React Hook useMemo has unnecessary dependency: requestKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useSkills.ts	76	React Hook useMemo has unnecessary dependency: rpcReady
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useSkills.ts	76	React Hook useMemo has unnecessary dependency: services
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useStartPlanRecommendation.ts	37	React Hook useCallback has a missing dependency: 'entitlement'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useStartPlanRecommendation.ts	85	React Hook useCallback has unnecessary dependency: entitlement.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useUsageEntitlement.ts	213	React Hook useMemo has unnecessary dependency: enabled
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useUsageEntitlement.ts	213	React Hook useMemo has unnecessary dependency: freshnessKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useUsageEntitlement.ts	213	React Hook useMemo has unnecessary dependency: usageStatsService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useUsageEntitlement.ts	399	React Hook useCallback has missing dependencies: 'preferredProviderId', 'accountAccess', and 'includeSubscription'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useWorkspaceOpenInEditorTarget.ts	60	React Hook useMemo has a missing dependency: 'scope'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useWorkspaceOpenInEditorTarget.ts	60	React Hook useMemo has unnecessary dependency: scope.workspaceIdentity
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useWorkspaceOpenInEditorTarget.ts	60	React Hook useMemo has unnecessary dependency: scope.workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/hooks/useWorkspaceOpenInEditorTarget.ts	60	React Hook useMemo has unnecessary dependency: scope.workspaceRemoteSessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/image-preview-editor/ImagePreviewSurface.tsx	160	React Hook useEffect has missing dependencies: 'viewport', and 'size'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/lib/workflowRunAckStore.ts	105	React Hook useMemo has unnecessary dependency: version
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	104	React Hook useMemo has unnecessary dependency: projectRevision
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	95	React Hook useMemo has unnecessary dependency: enabled
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	95	React Hook useMemo has unnecessary dependency: fileService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	95	React Hook useMemo has unnecessary dependency: projectId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	95	React Hook useMemo has unnecessary dependency: projectService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	95	React Hook useMemo has unnecessary dependency: sessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	95	React Hook useMemo has unnecessary dependency: workspaceIdentity
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/mentions/providers/fileMentionProvider.ts	95	React Hook useMemo has unnecessary dependency: workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/onboarding/OccupationOnboarding.tsx	214	React Hook useEffect has missing dependencies: 'applyLatestEntry', and 'onboardingVisible'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/onboarding/OnboardingDialog.tsx	206	React Hook useEffect has a missing dependency: 'sessionMigration'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/onboarding/useOnboardingTrigger.ts	125	React Hook useEffect has a missing dependency: 'update'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/PluginUiSidePane.tsx	25	React Hook useMemo has a missing dependency: 'props.tab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/PluginUiSidePane.tsx	25	React Hook useMemo has unnecessary dependency: props.tab.instanceId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/PluginUiSidePane.tsx	25	React Hook useMemo has unnecessary dependency: props.tab.surfaceId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/PluginUiSidePane.tsx	25	React Hook useMemo has unnecessary dependency: props.tab.toolCallId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/adapters/pluginUiResourceDeltaFeed.ts	54	React Hook useEffect has a missing dependency: 'scope'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/adapters/usePluginUiSidePaneModel.tsx	77	React Hook useMemo has a missing dependency: 'tab.remoteSessionId'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/adapters/usePluginUiToolCallModel.ts	132	React Hook useCallback has unnecessary dependency: routedSurfaceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/adapters/usePluginUiToolCallModel.ts	132	React Hook useCallback has unnecessary dependency: toolSurfaceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/adapters/usePluginUiToolCallModel.ts	153	React Hook useCallback has a missing dependency: 'context'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/adapters/usePluginUiToolCallModel.ts	153	React Hook useCallback has unnecessary dependency: context.onOpenBrowserUrl
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/plugin-ui/components/PluginUiCard.tsx	46	React Hook useLayoutEffect has a missing dependency: 'props'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneContent.tsx	191	React Hook useMemo has missing dependencies: 'source.afterContent.length', 'source.beforeContent', 'source.afterContent', 'source.title', 'source.path', and 'source.beforeContent.length'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneContent.tsx	193	React Hook useMemo has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneContent.tsx	194	React Hook useMemo has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneContent.tsx	195	React Hook useMemo has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneContent.tsx	196	React Hook useMemo has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneMarkdownContent.tsx	36	React Hook useMemo has unnecessary dependency: content
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneMarkdownContent.tsx	36	React Hook useMemo has unnecessary dependency: selectionTarget.sessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneMarkdownContent.tsx	36	React Hook useMemo has unnecessary dependency: selectionTarget.workspaceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneMarkdownContent.tsx	36	React Hook useMemo has unnecessary dependency: sourceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/previewPaneMarkdownContent.tsx	36	React Hook useMemo has unnecessary dependency: sourcePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectDirectoryProvider.tsx	30	React Hook useMemo has a missing dependency: 'result.factTree'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectDirectoryProvider.tsx	30	React Hook useMemo has unnecessary dependency: result.factTree.projects
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectDirectoryProvider.tsx	40	React Hook useMemo has a missing dependency: 'preferences'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectDirectoryProvider.tsx	40	React Hook useMemo has unnecessary dependency: preferences.order
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectEditor.tsx	179	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectManagement.tsx	83	React Hook useMemo has unnecessary dependency: state.tree
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectTaskRows.tsx	44	React Hook useCallback has a missing dependency: 'presentation'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/ProjectTaskRows.tsx	44	React Hook useCallback has unnecessary dependency: presentation.onOpenTaskFiles
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/RemoteProjectList.tsx	93	React Hook useEffect has a missing dependency: 'intl.formatMessage'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/grouped/group-item.tsx	192	React Hook useCallback has missing dependencies: 'groupDraggable', and 'expandedGroupHeaderDroppable'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/grouped/group-item.tsx	192	React Hook useCallback has unnecessary dependency: expandedGroupHeaderDroppable.setNodeRef
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/grouped/group-item.tsx	192	React Hook useCallback has unnecessary dependency: groupDraggable.setNodeRef
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/grouped/group-item.tsx	199	React Hook useCallback has missing dependencies: 'collapsedGroupDroppable', and 'groupOverDroppable'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/grouped/group-item.tsx	199	React Hook useCallback has unnecessary dependency: collapsedGroupDroppable.setNodeRef
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/grouped/group-item.tsx	199	React Hook useCallback has unnecessary dependency: groupOverDroppable.setNodeRef
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useProjectTree.ts	370	React Hook useCallback has a missing dependency: 'scopes.length'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useProjectTree.ts	398	React Hook useEffect has a missing dependency: 'scopes'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useProjectTree.ts	422	React Hook useMemo has unnecessary dependency: revision
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useProjectTree.ts	75	React Hook useMemo has unnecessary dependency: remoteService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useProjectTree.ts	75	React Hook useMemo has unnecessary dependency: service
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useProjectUnreadSignals.ts	384	React Hook useEffect has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useProjectUnreadSignals.ts	384	React Hook useEffect has a missing dependency: 'scopes'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/project-sidebar/useTaskGroups.ts	45	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/prompt-editor/ChatPromptEditor.tsx	290	React Hook useCallback has missing dependencies: 'setInternalDragging', 'setWorkspaceFileDragging', and 'setExternalFileDragging'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/prompt-editor/ChatPromptEditor.tsx	303	React Hook useCallback has a missing dependency: 'setInternalDragging'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/prompt-editor/ChatPromptEditor.tsx	337	React Hook useCallback has missing dependencies: 'setInternalDragging', 'setWorkspaceFileDragging', and 'setExternalFileDragging'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	1213	React hook useCallback depends on `startRemoteConnection`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	1267	React Hook useCallback has missing dependencies: 'handleCancelSession', and 'setConnectedSessionId'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	1314	React hook useCallback depends on `handleConnect`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	1314	React hook useCallback depends on `startRemoteConnection`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	1431	React Hook useCallback has missing dependencies: 'setConnectedSessionId', and 'resetConnectionLogs'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	1476	React Hook useCallback has missing dependencies: 'resetConnectionLogs', 'applyOpenState', and 'setConnectedSessionId'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	156	React Hook useEffect has a missing dependency: 'applyOpenState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	1704	React Hook useEffect has missing dependencies: 'upgradeLoading', and 'flowSnapshot'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	590	React Hook useCallback has missing dependencies: 'resetDraft', 'resetConnectionLogs', 'applyOpenState', and 'setConnectedSessionId'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	590	React Hook useCallback has unnecessary dependency: connectedSessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/remote-connection-flow/index.ts	728	React Hook useCallback has unnecessary dependency: confirmDialog
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/rewards/RewardsWebview.tsx	153	React Hook useCallback has a missing dependency: 'policy'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/rewards/RewardsWebview.tsx	153	React Hook useCallback has unnecessary dependency: policy.dev
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/rewards/RewardsWebview.tsx	153	React Hook useCallback has unnecessary dependency: policy.e2e
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRemoteWorkspaceHistory.ts	1727	React Hook useEffect has missing dependencies: 'remoteWorkspaceReconnectRendererState.pendingTerminallyDisconnectedSourceServerIds', 'remoteWorkspaceReconnectRendererState.currentRendererDisconnectedSourceServerIds', 'remoteWorkspaceReconnectRendererState', and 'remoteWorkspaceReconnectRendererState.attemptedWorkspaceKeys'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRemoteWorkspaceHistory.ts	2219	React Hook useCallback has missing dependencies: 'remoteWorkspaceReconnectRendererState.pendingTerminallyDisconnectedSourceServerIds', 'remoteWorkspaceReconnectRendererState.currentRendererDisconnectedSourceServerIds', and 'remoteWorkspaceReconnectRendererState.observedOnlineSourceServerIds'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRootOAuthEffects.ts	223	React Hook useEffect has a missing dependency: 'services.oauthService'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRootPlatformEffects.ts	347	React Hook useEffect has missing dependencies: 'intl', 'activateTabByPath', 'openWorkspacePath', 'setWorkspaceActionError', 'allowOpenWorkspace', and 'openWorkspace'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRootProviderStateRefresh.ts	26	React Hook useCallback has a missing dependency: 'services'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRootProviderStateRefresh.ts	26	React Hook useCallback has unnecessary dependency: services.providerSettingsService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRootWorkspaceActions.ts	449	React Hook useCallback has a missing dependency: 'services.taskGroupService'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/root/useRootWorkspaceActions.ts	551	React Hook useCallback has unnecessary dependency: services.modelSelectionService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationEditView.tsx	1335	React Hook useEffect has a missing dependency: 'localizedDefaultCreateTitle'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationEditView.tsx	1407	React Hook useEffect has a missing dependency: 'editing'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationEditView.tsx	1807	React Hook useCallback has a missing dependency: 'selectedWorkspace'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationEditView.tsx	528	React Hook useEffect has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationEditView.tsx	528	React Hook useEffect has a missing dependency: 'selectedDate'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationsSection.tsx	730	React Hook useEffect has a missing dependency: 'setTab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationsSection.tsx	764	React Hook useEffect has a missing dependency: 'setTab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationsSection.tsx	840	React Hook useEffect has a missing dependency: 'setTab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationsSection.tsx	850	React Hook useEffect has a missing dependency: 'setTab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/AutomationsSection.tsx	963	React Hook useEffect has a missing dependency: 'setTab'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/CodingPlanEmbeddedWebviewDialog.tsx	240	React Hook useCallback has unnecessary dependency: userId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/CodingPlanEmbeddedWebviewDialog.tsx	430	React Hook useCallback has a missing dependency: 'provider'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ComputerUseSection.tsx	287	React Hook useCallback has a missing dependency: 'cuaPermissionService'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ComputerUseSection.tsx	357	React Hook useCallback has unnecessary dependency: path
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ComputerUseSection.tsx	512	React Hook useCallback has missing dependencies: 'cuaPermissionService', and 'helperContextKey'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ComputerUseSection.tsx	512	React Hook useCallback has unnecessary dependency: services
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HookForm.tsx	159	React Hook useCallback has a missing dependency: 'hook.shell'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	366	React Hook useEffect has a missing dependency: 'hooksState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	410	React Hook useCallback has a missing dependency: 'hooksState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	410	React Hook useCallback has unnecessary dependency: hooksState.initialize
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	447	React Hook useEffect has a missing dependency: 'setSelectedScopeKey'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	476	React Hook useCallback has a missing dependency: 'hooksState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	476	React Hook useCallback has unnecessary dependency: hooksState.addHook
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	476	React Hook useCallback has unnecessary dependency: hooksState.updateHook
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	509	React Hook useCallback has a missing dependency: 'hooksState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	509	React Hook useCallback has unnecessary dependency: hooksState.deleteHook
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	521	React Hook useCallback has a missing dependency: 'hooksState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	521	React Hook useCallback has unnecessary dependency: hooksState.toggleHook
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	534	React Hook useCallback has a missing dependency: 'hooksState'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/HooksSection.tsx	534	React Hook useCallback has unnecessary dependency: hooksState.importHook
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/McpSettingsSection.tsx	1161	React hook useMemo depends on `servers`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/McpSettingsSection.tsx	1204	React hook useMemo depends on `statusSnapshots`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/McpSettingsSection.tsx	662	React hook useMemo depends on `servers`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/McpSettingsSection.tsx	715	React hook useMemo depends on `servers`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/McpSettingsSection.tsx	715	React hook useMemo depends on `statusSnapshots`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/McpSettingsSection.tsx	719	React hook useMemo depends on `servers`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/McpSettingsSection.tsx	719	React hook useMemo depends on `statusSnapshots`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ModelProviderSection.tsx	447	React hook useCallback depends on `connectionSelections`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ModelProviderSection.tsx	454	React hook useMemo depends on `connectionSelections`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ModelProviderSection.tsx	490	React hook useEffect depends on `connectionSelections`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ModelProviderSection.tsx	544	React Hook useCallback has an unnecessary dependency: refreshModelProviderPanelAfterAuthChange.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ModelProviderSection.tsx	888	React Hook useCallback has unnecessary dependency: modelSelectionService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/ModelProviderSection.tsx	888	React Hook useCallback has unnecessary dependency: refreshCodingPlanEntitlements
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/OffPeakEditView.tsx	344	React Hook useCallback has a missing dependency: 'showToast'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginStorePage.tsx	466	React Hook useCallback has a missing dependency: 'usePluginManagementStore'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginStorePage.tsx	491	React Hook useCallback has a missing dependency: 'usePluginManagementStore'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginStorePage.tsx	504	React Hook useCallback has a missing dependency: 'usePluginManagementStore'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1149	React Hook useCallback has unnecessary dependency: selectedScope.key
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1149	React Hook useCallback has unnecessary dependency: selectedTargetKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1157	React Hook useCallback has unnecessary dependency: selectedScope.key
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1157	React Hook useCallback has unnecessary dependency: selectedTargetKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1165	React Hook useCallback has unnecessary dependency: selectedScope.key
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1165	React Hook useCallback has unnecessary dependency: selectedTargetKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1173	React Hook useCallback has unnecessary dependency: selectedScope.key
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	1173	React Hook useCallback has unnecessary dependency: selectedTargetKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	375	React Hook useCallback has a missing dependency: 'usePluginManagementStore'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	436	React Hook useCallback has a missing dependency: 'usePluginManagementStore'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/PluginsSection.tsx	452	React Hook useCallback has a missing dependency: 'usePluginManagementStore'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/SubagentsSection.tsx	850	React Hook useMemo has unnecessary dependency: initialFormStateKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/Detail.tsx	379	React Hook useEffect has a missing dependency: 'selectedTeamPlanEntitlement'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/InlineEditableProviderCard.tsx	373	React Hook useCallback has unnecessary dependency: provider.providerId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/InlineEditableProviderCard.tsx	474	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/ProviderCardSections.tsx	414	React Hook useCallback has a missing dependency: 'editor'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/ProviderCardSections.tsx	414	React Hook useCallback has unnecessary dependency: editor.reset
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/ProviderCardSections.tsx	438	React hook useCallback depends on `cancelAddDialog`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/ProviderFormControls.tsx	104	React Hook useCallback has a missing dependency: 'editor'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/ProviderFormControls.tsx	135	React hook useCallback depends on `commitDraft`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/ProviderFormControls.tsx	95	React Hook useCallback has a missing dependency: 'editor'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has missing dependencies: 'start', and 'coding'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: coding.error
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: coding.loading
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: coding.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: coding.snapshot
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: start.error
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: start.loading
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: start.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	114	React Hook useMemo has unnecessary dependency: start.snapshot
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	216	React Hook useCallback has missing dependencies: 'bigmodelFamily.start', 'bigmodelFamily.coding', 'zaiFamily.coding', and 'zaiFamily.start'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	216	React Hook useCallback has unnecessary dependency: bigmodelFamily.coding.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	216	React Hook useCallback has unnecessary dependency: bigmodelFamily.start.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	216	React Hook useCallback has unnecessary dependency: zaiFamily.coding.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useCodingPlanEntitlements.ts	216	React Hook useCallback has unnecessary dependency: zaiFamily.start.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useEnterpriseCodingPlanProducts.ts	107	React Hook useMemo has unnecessary dependency: authScope
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useEnterpriseCodingPlanProducts.ts	107	React Hook useMemo has unnecessary dependency: authenticated
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useEnterpriseCodingPlanProducts.ts	107	React Hook useMemo has unnecessary dependency: family
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useEnterpriseCodingPlanProducts.ts	107	React Hook useMemo has unnecessary dependency: service
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useEnterpriseCodingPlanProducts.ts	107	React Hook useMemo has unnecessary dependency: staticOnly
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useEnterpriseCodingPlanProducts.ts	120	React hook useMemo depends on `state`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useModelConfigResolution.ts	106	React Hook useEffect has a missing dependency: 'idle'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useModelConfigResolution.ts	26	React Hook useMemo has unnecessary dependency: modelId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useModelConfigResolution.ts	26	React Hook useMemo has unnecessary dependency: open
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useModelConfigResolution.ts	26	React Hook useMemo has unnecessary dependency: resolve
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useModelProviderNavigation.ts	241	React Hook useMemo has unnecessary dependency: pendingConnectionSelections
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settings/model-provider-section/useProviderModelDraft.ts	45	React Hook useCallback has unnecessary dependency: scopeKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/settingsPageHelpers.tsx	305	React hook useCallback depends on `visibleIntegratedTerminalShellOptions`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	1117	React Hook useEffect has a missing dependency: 'attachmentsApi'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	1320	React Hook useEffect has missing dependencies: 'workspaceKey', and 'composerDraft'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	1404	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	1405	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	1952	React Hook useCallback has unnecessary dependency: updateComposerContent
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	2603	React Hook useMemo has a missing dependency: 'videoAttachmentPreviewTitle'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	2603	React Hook useMemo has unnecessary dependency: pendingShareContext
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	2781	React Hook useMemo has missing dependencies: 'isMobileTextInputViewport', and 'intl'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	2781	React Hook useMemo has unnecessary dependency: mode
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	2781	React Hook useMemo has unnecessary dependency: sendShortcut
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	2781	React Hook useMemo has unnecessary dependency: sendTooltipTitle
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	870	React Hook useCallback has a missing dependency: 'attachmentsApi'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	870	React Hook useCallback has unnecessary dependency: attachmentsApi.handleDragOverComposer
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	876	React Hook useCallback has a missing dependency: 'attachmentsApi'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	876	React Hook useCallback has unnecessary dependency: attachmentsApi.handleDragLeaveComposer
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	897	React Hook useCallback has a missing dependency: 'attachmentsApi'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationComposer.tsx	897	React Hook useCallback has unnecessary dependency: attachmentsApi.handleDropComposer
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationDraftSuggestedPromptsContainer.tsx	110	React Hook useMemo has unnecessary dependency: recommendationRevision
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationDraftSuggestedPromptsContainer.tsx	523	React Hook useCallback has a missing dependency: 'isWebRemoteControl'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationFileSummaryPanel.tsx	181	React Hook useEffect has a missing dependency: 'context'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationRowView.tsx	561	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationRowView.tsx	562	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationRowView.tsx	563	The ref's value `.current` is accessed directly in the effect cleanup function.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTimeline.tsx	1310	React Hook useLayoutEffect has a complex expression in the dependency array.
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTimeline.tsx	1357	React Hook useLayoutEffect has a missing dependency: 'liveUnit'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTimeline.tsx	1729	React Hook useLayoutEffect has a missing dependency: 'rowWindowKey'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTimeline.tsx	1800	React Hook useLayoutEffect has a missing dependency: 'rows.length'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTurnGroup.tsx	1294	React Hook useMemo has unnecessary dependency: highspeedState
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTurnGroup.tsx	1327	React Hook useMemo has a missing dependency: 'unit'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTurnGroup.tsx	1327	React Hook useMemo has unnecessary dependency: unit.assistantTextRows
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTurnGroup.tsx	1327	React Hook useMemo has unnecessary dependency: unit.assistantWorkRows
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/ConversationTurnGroup.tsx	1327	React Hook useMemo has unnecessary dependency: unit.latestAssistantTextRow
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	1069	React Hook useMemo has unnecessary dependency: sharePreflightVersion
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	1248	React Hook useMemo has unnecessary dependency: fileChanges
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	1248	React Hook useMemo has unnecessary dependency: sessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	1248	React Hook useMemo has unnecessary dependency: snapshot.logEpoch
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	1718	React Hook useEffect has a missing dependency: 'snapshot.config'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	1778	React Hook useMemo has unnecessary dependency: sessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	1778	React Hook useMemo has unnecessary dependency: workspaceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	2084	React Hook useMemo has unnecessary dependency: sessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	2084	React Hook useMemo has unnecessary dependency: workspaceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	2534	React Hook useCallback has unnecessary dependency: provider
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	3456	React Hook useEffect has a missing dependency: 'snapshot'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	3654	React Hook useCallback has unnecessary dependency: provider
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	3654	React Hook useCallback has unnecessary dependency: sessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	3654	React Hook useCallback has unnecessary dependency: workspaceIdentity
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	3654	React Hook useCallback has unnecessary dependency: workspaceKey
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	3654	React Hook useCallback has unnecessary dependency: workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	3696	React Hook useEffect has missing dependencies: 'sessionId', and 'setLease'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	4275	React Hook useCallback has missing dependencies: 'workspaceIdentity', 'viewWorktreeCreation', 'workspacePath', and 'workspaceKey'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	4275	React Hook useCallback has unnecessary dependency: createSubmissionFromComposer
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	4275	React Hook useCallback has unnecessary dependency: resolveInitialDraftConfig
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	5283	React Hook useCallback has missing dependencies: 'modelSelectionView.providers', and 'modelSelectionView'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	5283	React Hook useCallback has unnecessary dependency: sessionId
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	5707	React Hook useEffect has a missing dependency: 'subagents.revision'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	6057	React Hook useCallback has a missing dependency: 'locale'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	763	React Hook useMemo has unnecessary dependency: composerDraftGeneration
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	948	React Hook useMemo has unnecessary dependency: shareDraft
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	960	React Hook useMemo has unnecessary dependency: shareDraft
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/SessionPane.tsx	996	React Hook useMemo has unnecessary dependency: sharePreflightVersion
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/V4InteractionDialogs.tsx	349	React Hook useEffect has a missing dependency: 'pending'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/V4WorkspaceChatArea.tsx	307	React Hook useMemo has a missing dependency: 'sessionId'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/WorkbenchPane.tsx	340	React Hook useCallback has a missing dependency: 'shell'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/WorkbenchPane.tsx	340	React Hook useCallback has unnecessary dependency: shell.onSessionDeleted
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/WorkbenchPane.tsx	362	React Hook useCallback has a missing dependency: 'shell'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/WorkbenchPane.tsx	362	React Hook useCallback has unnecessary dependency: shell.onSessionCreated
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/WorkflowNotificationToolRow.tsx	182	React hook useCallback depends on `openRunLink`, which changes every render
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	1028	React Hook useCallback has unnecessary dependency: displayProvider
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	1028	React Hook useCallback has unnecessary dependency: workspaceIdentity
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	1028	React Hook useCallback has unnecessary dependency: workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	682	React Hook useMemo has unnecessary dependency: authSessionSeq
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	682	React Hook useMemo has unnecessary dependency: baseServices
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	682	React Hook useMemo has unnecessary dependency: connectionFamily
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	682	React Hook useMemo has unnecessary dependency: user.id
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	709	React Hook useMemo has unnecessary dependency: teamUsageScope
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	761	React Hook useCallback has a missing dependency: 'teamEntitlement'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	761	React Hook useCallback has unnecessary dependency: teamEntitlement.refresh
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/V4ComposerToolbar.tsx	817	React Hook useMemo has a missing dependency: 'contextCodingPlanUsageProviders'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftConfigControl.ts	1053	React Hook useCallback has a missing dependency: 'createDraftPersistence'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftConfigControl.ts	278	React Hook useMemo has missing dependencies: 'rootScope', 'sessionId', 'scopeId', 'workspaceKey', 'workspaceIdentity', 'workspacePath', 'navigationInitialization.config', and 'navigationInitialization'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftConfigControl.ts	557	React Hook useEffect has a missing dependency: 'bumpScopeContentRevision'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftConfigControl.ts	615	React Hook useCallback has missing dependencies: 'bumpScopeContentRevision', and 'scopeKey'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftConfigControl.ts	845	React Hook useCallback has a missing dependency: 'bumpScopeContentRevision'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftModelReadinessGate.ts	54	React Hook useMemo has unnecessary dependency: enabled
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftModelReadinessGate.ts	54	React Hook useMemo has unnecessary dependency: modelSelectionService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftSessionPrewarm.ts	605	React Hook useMemo has unnecessary dependency: enabled
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftSessionPrewarm.ts	605	React Hook useMemo has unnecessary dependency: invalidationVersion
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/composer/useDraftSessionPrewarm.ts	644	React Hook useEffect has missing dependencies: 'resolveInitialConfig', and 'dispatchCommand'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/telemetry/useSessionOpenArmsTelemetry.ts	174	React Hook useLayoutEffect has a missing dependency: 'snapshot.sessionId'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useAssistantPreviewCardsForRow.ts	93	React Hook useMemo has a missing dependency: 'fileChangesTarget'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useSessionsIndex.ts	31	React Hook useMemo has unnecessary dependency: workspaceIdentity
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useSessionsIndex.ts	31	React Hook useMemo has unnecessary dependency: workspacePath
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useSessionsIndex.ts	31	React Hook useMemo has unnecessary dependency: zcodeAgentService
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useSessionsIndex.ts	46	React Hook useMemo has unnecessary dependency: state
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useV4SessionQuotaBanner.ts	124	React Hook useMemo has unnecessary dependency: reminderVersion
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useV4SessionQuotaBanner.ts	210	React Hook useEffect has a missing dependency: 'entitlement'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useV4SessionQuotaBanner.ts	225	React Hook useEffect has a missing dependency: 'entitlement'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useWorkspaceSessionsIndexItems.ts	213	React Hook useMemo has a missing dependency: 'baseAgentService'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useWorkspaceSessionsIndexItems.ts	213	React Hook useMemo has unnecessary dependency: signature
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/v4/useWorkspaceSessionsIndexItems.ts	213	React Hook useMemo has unnecessary dependency: tick
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/workspace-file-search/useWorkspaceFileSearchFilter.ts	80	React Hook useEffect has a missing dependency: 'options'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/src/workspace-file-tree/WorkspaceFileTree.tsx	319	React Hook useEffect has a missing dependency: 'treeData'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/test/browser/manual-review/pending/share-popover.fixture.tsx	81	React Hook useEffect has missing dependencies: 'state', and 'candidates'
+eslint-plugin-react-hooks(exhaustive-deps)	packages/ui/test/browser/manual-review/pending/yolo-confirmation.fixture.tsx	59	React Hook useCallback has unnecessary dependency: target
+eslint-plugin-react-hooks(rules-of-hooks)	packages/desktop/test/e2e/helpers/web-remote-visibility-browser.ts	102	React Hook "useNativeVisibility" is called in function "Anonymous" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+eslint-plugin-react-hooks(rules-of-hooks)	packages/desktop/test/e2e/helpers/web-remote-visibility-browser.ts	111	React Hook "useNativeVisibility" is called in function "Anonymous" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/ToolCallBlocks/renderers/resume-workflow-run.tsx	109	React Hook "useMemo" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/ToolCallBlocks/renderers/resume-workflow-run.tsx	123	React Hook "useCallback" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/ToolCallBlocks/renderers/resume-workflow-run.tsx	97	React Hook "useMemo" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/hooks/useOnboardingRecordService.ts	11	React Hook "useServices" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/hooks/useZCodeAgentService.ts	11	React Hook "useWorkspaceServices" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/hooks/useZCodeAgentService.ts	12	React Hook "useServices" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/hooks/useZCodeSessionService.ts	11	React Hook "useWorkspaceServices" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/hooks/useZCodeSessionService.ts	12	React Hook "useServices" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/hooks/useZCodeTaskService.ts	310	React Hook "useWorkspaceServices" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/hooks/useZCodeTaskService.ts	311	React Hook "useServices" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	237	React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	238	React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	239	React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	240	React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	246	React Hook "useFeedbackStore" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	255	React Hook "useTaskListItemContextActions" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	343	React Hook "useDraggable" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-react-hooks(rules-of-hooks)	packages/ui/src/project-sidebar/grouped/task-row.tsx	348	React Hook "useDroppable" is called conditionally. React Hooks must be called in the exact same order in every component render.
+eslint-plugin-unicorn(no-new-array)	apps/zcode-cli/packages/dynamic-workflow/tests/smoke/xiangqi-two-agent-match-b.dwf.ts	55	Do not use `new Array(singleArgument)`.
+eslint-plugin-unicorn(no-new-array)	packages/services/src/conversation-share/conversationShareService.ts	132	Do not use `new Array(singleArgument)`.
+eslint-plugin-unicorn(no-useless-length-check)	packages/desktop/test/e2e/conversation-session/remote/execution/conversation-session-r3-attachments.test.ts	269	Found a useless array length check
+eslint-plugin-unicorn(no-useless-spread)	packages/desktop/src/host/startupDiskSampler.ts	107	Using a spread operator here creates a new array unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/rpc/src/foundation.ts	158	Using a spread operator here creates a new array unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/services/src/zcode-agent/zcodeAgentConnectionScope.ts	714	Using a spread operator here creates a new array unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/services/src/zcode-agent/zcodeAgentConnectionScope.ts	715	Using a spread operator here creates a new array unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/services/src/zcode-agent/zcodeTaskIndexSyncer.ts	654	Using a spread operator here creates a new object unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/ui/src/project-sidebar/useProjectUnreadSignals.ts	131	Using a spread operator here creates a new array unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/ui/src/v4/WorkspaceHookPendingBanner.tsx	92	Using a spread operator here creates a new object unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/ui/src/v4/composer/useDraftSessionPrewarm.ts	487	Using a spread operator here creates a new array unnecessarily.
+eslint-plugin-unicorn(no-useless-spread)	packages/ui/src/v4/taskListMembershipVersion.ts	13	Using a spread operator here creates a new array unnecessarily.
+typescript-eslint(no-this-alias)	packages/desktop/test/e2e/helpers/source-server-update-inflight.ts	76	Unexpected aliasing of 'this' to local variable.
+typescript-eslint(no-this-alias)	packages/rpc/src/ipc.ts	161	Unexpected aliasing of 'this' to local variable.
+typescript-eslint(no-this-alias)	packages/rpc/src/ipc.ts	219	Unexpected aliasing of 'this' to local variable.
