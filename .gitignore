@@ -1,0 +1,34 @@
+# 依赖与构建产物
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.turbo/
+/out/
+
+# 环境变量与本地配置（示例文件除外）
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# 本地数据、临时文件与离线包
+/data/
+/tmp/
+/releases/
+/offline/
+*.tar
+*.tar.gz
+
+# 密钥与证书（许可证签名、TLS 等，均不入库）
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# 编辑器与系统
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
