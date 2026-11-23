@@ -10,7 +10,12 @@
     {
       "files": ["**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}"],
       "plugins": ["unicorn", "typescript", "oxc", "react"],
-      "rules": {}
+      "rules": {
+        // React 插件默认并不启用这两条（与 ZCode 一样要显式打开）。没有它们，钩子调用位置不对、
+        // 依赖数组漏项，lint 照样是 0 警告。不设 warn：本仓库从零开始，不让这一类诊断囤成存量。
+        "react/rules-of-hooks": "error",
+        "react/exhaustive-deps": "error"
+      }
     },
     {
       // 测试文件会堆叠大量场景与断言，不对它们套用生产代码的行数上限。

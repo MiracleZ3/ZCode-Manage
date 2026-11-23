@@ -7,8 +7,11 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
+    "@hono/node-server": "^1.19.19",
     "@zm/contracts": "workspace:*",
-    "hono": "^4.12.9"
+    "hono": "^4.12.9",
+    "jose": "^6.2.18",
+    "zod": "4.6.5"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",

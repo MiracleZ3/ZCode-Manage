@@ -1,0 +1,49 @@
+name: zcode-manage-dev
+
+# 开发用的基础服务。应用本身在主机上以进程方式运行，不在这里。
+# 镜像仓库前缀可换：国内网络默认走镜像站；其他环境设 ZM_IMAGE_REGISTRY=docker.io。
+# 所有端口只绑定回环地址，不暴露到局域网。
+
+services:
+  postgres:
+    image: ${ZM_IMAGE_REGISTRY:-docker.m.daocloud.io}/library/postgres:${ZM_DEV_POSTGRES_TAG:-16-alpine}
+    environment:
+      POSTGRES_USER: ${ZM_DEV_DB_USER:-zm}
+      POSTGRES_PASSWORD: ${ZM_DEV_DB_PASSWORD:-zm-dev-password}
+      POSTGRES_DB: ${ZM_DEV_DB_NAME:-zm}
+    ports:
+      - "127.0.0.1:${ZM_DEV_DB_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${ZM_DEV_DB_USER:-zm} -d ${ZM_DEV_DB_NAME:-zm}"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+  keycloak:
+    # 充当客户的企业身份系统。开发模式每次启动都是全新的库，并自动导入 realm。
+    image: ${ZM_IMAGE_REGISTRY:-docker.m.daocloud.io}/keycloak/keycloak:${ZM_DEV_KEYCLOAK_TAG:-26.2}
+    command: ["start-dev", "--import-realm"]
+    environment:
+      # 开发态的管理员账号，只在这个本地容器里有效。
+      KC_BOOTSTRAP_ADMIN_USERNAME: ${ZM_DEV_KEYCLOAK_ADMIN:-admin}
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${ZM_DEV_KEYCLOAK_ADMIN_PASSWORD:-admin-dev-password}
+      KC_HEALTH_ENABLED: "true"
+    ports:
+      - "127.0.0.1:${ZM_DEV_KEYCLOAK_PORT:-8180}:8080"
+    volumes:
+      - ./keycloak:/opt/keycloak/data/import:ro
+    healthcheck:
+      # 镜像里没有 curl，用 bash 自带的 /dev/tcp 探测就绪接口。
+      # Keycloak 26 的健康接口在独立的管理端口 9000 上，不在业务端口 8080 上。
+      test:
+        - CMD-SHELL
+        - "exec 3<>/dev/tcp/127.0.0.1/9000; printf 'GET /health/ready HTTP/1.1\r\nhost: localhost:9000\r\nconnection: close\r\n\r\n' >&3; grep -q '200 OK' <&3"
+      interval: 5s
+      timeout: 5s
+      retries: 40
+      start_period: 20s
+
+volumes:
+  pgdata:

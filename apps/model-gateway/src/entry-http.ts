@@ -1,34 +1,46 @@
-import { serve } from "@hono/node-server";
-import { createLogger, formatLogPrefix } from "@zm/shared";
-import { SERVICE_NAME, createApp } from "./app.js";
+import { createDatabase } from "@zm/database";
+import {
+  createAccessTokenVerifier,
+  createAuthMiddleware,
+  createLogger,
+  formatLogPrefix,
+  startHttpServer,
+} from "@zm/shared";
+import { SERVICE_NAME, createGatewayApp } from "./app.js";
 import { loadConfig } from "./config.js";
+import { createGatewayServices } from "./services.js";
 
 const logScope = `${SERVICE_NAME}:entry`;
 
 async function main(): Promise<void> {
   const config = loadConfig();
   const logger = createLogger(logScope, { minLevel: config.logLevel });
-  const app = createApp();
-  const server = serve({ fetch: app.fetch, hostname: config.host, port: config.port }, () => {
-    const address = server.address();
-    const port = typeof address === "object" && address ? address.port : config.port;
-    // 监听任意地址时打印 localhost，打印出来的地址才可以直接访问。
-    const hostname = config.host === "0.0.0.0" || config.host === "::" ? "localhost" : config.host;
-    logger.info(undefined, `listening on http://${hostname}:${port}`);
-  });
+  const { db, pool } = createDatabase({ connectionString: config.databaseUrl });
 
-  // 容器停止时编排先发 SIGTERM。等在途请求结束再退出，不中断正在进行的响应。
-  const shutdown = (signal: string): void => {
-    logger.info(undefined, `received ${signal}, shutting down`);
-    server.close((error) => {
-      if (error) {
-        logger.error(undefined, "server close failed", error);
-        process.exitCode = 1;
-      }
-    });
-  };
-  process.once("SIGTERM", () => shutdown("SIGTERM"));
-  process.once("SIGINT", () => shutdown("SIGINT"));
+  const gateway = createGatewayApp(
+    createGatewayServices({
+      db,
+      config,
+      logger,
+      auth: createAuthMiddleware({
+        verify: createAccessTokenVerifier({ issuer: config.issuer }),
+        onRejected: ({ requestId, reason }) =>
+          logger.warn(requestId, "access token rejected", { reason }),
+      }),
+    }),
+  );
+
+  await startHttpServer({
+    fetch: (request) => gateway.app.fetch(request),
+    hostname: config.host,
+    port: config.port,
+    logger,
+    onClosed: async () => {
+      // 先等流式请求都结束、用量都写完，再断开数据库连接。
+      await gateway.idle();
+      await pool.end();
+    },
+  });
 }
 
 void main().catch((error: unknown) => {

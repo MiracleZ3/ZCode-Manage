@@ -1,0 +1,43 @@
+{
+  "realm": "zcode-ee-dev",
+  "enabled": true,
+  "displayName": "ZCode-EE 开发用身份系统",
+  "sslRequired": "none",
+  "registrationAllowed": false,
+  "loginWithEmailAllowed": true,
+  "clients": [
+    {
+      "clientId": "zcode-manage",
+      "name": "ZCode-Manage 作为上游的客户身份系统客户端",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "publicClient": false,
+      "secret": "zcode-manage-dev-upstream-secret",
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": false,
+      "redirectUris": ["http://localhost/auth/callback/keycloak-dev"],
+      "webOrigins": [],
+      "defaultClientScopes": ["profile", "email"],
+      "attributes": {
+        "pkce.code.challenge.method": "S256"
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "alice",
+      "enabled": true,
+      "emailVerified": true,
+      "firstName": "Alice",
+      "lastName": "开发者",
+      "email": "alice@example.test",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "alice-dev-password",
+          "temporary": false
+        }
+      ]
+    }
+  ]
+}

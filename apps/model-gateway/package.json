@@ -5,18 +5,23 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch --onSuccess 'node dist/entry-http.js'",
+    "dev": "tsup --watch --onSuccess \"node dist/entry-http.js\"",
     "start": "node dist/entry-http.js"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.11",
     "@zm/contracts": "workspace:*",
+    "@zm/database": "workspace:*",
     "@zm/shared": "workspace:*",
+    "drizzle-orm": "^0.45.4",
     "hono": "^4.12.9",
+    "jose": "^6.2.18",
+    "pg": "^8.23.1",
     "zod": "4.6.5"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
+    "@types/pg": "^8.23.1",
     "tsup": "^8.4.0",
     "vitest": "^4.1.1"
   }

@@ -13,6 +13,8 @@ coverage/
 .env.*
 !.env.example
 !.env.*.example
+# 本机开发用的应用环境，由 scripts/dev-env.mjs 随机生成
+deploy/dev/apps.env
 
 # 本地数据、临时文件与离线包
 /data/

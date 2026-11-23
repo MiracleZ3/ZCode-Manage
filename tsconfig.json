@@ -3,7 +3,9 @@
   "references": [
     { "path": "packages/contracts" },
     { "path": "packages/shared" },
+    { "path": "packages/database" },
     { "path": "apps/manage-api" },
-    { "path": "apps/model-gateway" }
+    { "path": "apps/model-gateway" },
+    { "path": "apps/mock-model" }
   ]
 }

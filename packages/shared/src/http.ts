@@ -30,18 +30,19 @@ export function resolveRequestId(headerValue: string | undefined): string {
   return randomUUID();
 }
 
-function errorBody(code: string, message: string, c: Context<ServiceAppEnv>) {
-  return apiErrorSchema.parse({ error: { code, message, requestId: c.get("requestId") } });
-}
-
 /**
  * 每个服务的 Hono 骨架：请求 ID、健康检查、统一的 404 与未捕获错误出口。
  * 业务路由由各服务在返回的 app 上继续注册。
+ * 类型参数 E 让服务追加自己的上下文变量，例如访问令牌的声明。
  */
-export function createBaseApp(options: BaseServiceAppOptions): Hono<ServiceAppEnv> {
+export function createBaseApp<E extends ServiceAppEnv>(options: BaseServiceAppOptions): Hono<E> {
   const service = options.service.trim();
   const logger = options.logger ?? createLogger(`${service}:http`);
-  const app = new Hono<ServiceAppEnv>();
+  const app = new Hono<E>();
+
+  function errorBody(code: string, message: string, c: Context<E>) {
+    return apiErrorSchema.parse({ error: { code, message, requestId: c.get("requestId") } });
+  }
 
   app.use("*", async (c, next) => {
     const startedAt = performance.now();

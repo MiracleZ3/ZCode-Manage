@@ -16,7 +16,7 @@ export default defineConfig({
   removeNodeProtocol: false,
   target: "es2024",
   // workspace 包的 exports 指向 .ts 源码，Node 运行时不能直接加载，需要打包进来。
-  noExternal: ["@zm/contracts", "@zm/shared"],
+  noExternal: ["@zm/contracts", "@zm/shared", "@zm/database"],
   clean: true,
   sourcemap: true,
   define: {
